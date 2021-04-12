@@ -1,0 +1,65 @@
+Project Specifications :
+Create UI for project - So that we don't need to write the entire code everytime.
+Display transaction items in DOM
+Show balance, expense and income totals
+Add new transation and reflect in total
+Delete items from DOM
+Persist to local storage
+
+This is a simple expense tracker app created using use hooks and the context API.
+
+This is basically a freestyle, which is just breaking everything into components. It is created using context API so it has a global state / global context and will pass everything down to the components. All these transactions are put in global state and pass it down to the components. Then all calculations and stuff is done inside the components.  It's a simple React project, which is bringing in all of DOM elements, an add transaction to add in objects to the array.
+
+It have a transaction dom which will update the dom, as it don't have to manually create elements and then have been updated values function which will calculate the total the income the expense.
+
+Currently it's used local storage where transaction are going to keep everything in state. It might be backend with database.
+
+A create react app is created using NPX, so that it don't actually have to install it and no need of JS and NPM installed.
+
+The project is created using creating components for everything like header,balance, income expense,transaction list with transaction components inside of it, and add transaction component. It is used basically for a framework which is front end framework, which breaks the UI up into specific components. Once the UI is displayed them, then the functionality is added. Each component is kept in a source folder called components. 
+
+It's created using a component level state because inputs like this will need to be part of state, which is bring in a hook, called state.
+
+
+Structure of the Files :
+
+src/App.css : 	This a Global configuration file, used for styling purpose, like everything's in the middle, background, body, heading etc. so that main focus 				remains on creating/configuraing components.
+
+src/App.js :	This is a main App files, where all the Components / Hooks has been imported, so no need of write the entire coding again for any changes. Changes 		nneds to do only in component and will get reflected as soon as file get saved.
+
+src/Index.js:	This is a React Rendering file.
+
+
+components/AddTransaction.js :	This is a component for adding Transaction.
+components/Balance.js :		This is a component for Displaying balance.
+components/Header.js :		This is a component for Header
+components/IncomeExpenses.js:	This is a component for checking the amount is greater than 0 and passed the same in Reducer for further processing.
+components/Title.js :		This is a component for Title
+components/Transaction.js :	This is a component for Checking amount is Positive or Negative Assigning a Ramdom ID Transaction, Deleting a Transaction
+components/TransactionList.js :	This is a component for listing all the transactions.
+
+
+context/AppReducer.js :		This is a placeholder of Transaction, Adding a Transaction or Deleting it.
+context/GoobalState.js :	This is a Hook/State for Transactions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

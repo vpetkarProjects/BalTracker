@@ -1,0 +1,224 @@
+/*This is a Glogal configuration file, used for styling purpose, like everything's in the middle, background, body, heading etc.*/
+
+/*Styling for Page*/
+:root {
+  --box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+/*Styling for Table/
+* {
+  box-sizing: border-box;
+}
+
+/*Styling for Body*/
+body {
+  background-image: url('https://i.imgur.com/i6Q8qDw.jpg');
+  position: relative;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+/*Styling for Container*/
+.container {
+  margin: 30px auto;
+  width: 350px;
+}
+
+/*Styling for Header 1*/
+h1 {
+  letter-spacing: 1px;
+  margin: 0;
+  color: blueviolet;
+  text-shadow: 2px 2px#5E1914;
+}
+
+/*Styling for Header 2*/
+h2 {
+  color: red;
+  font-style: italic;
+  letter-spacing: 1px;
+  padding-bottom: 0px;
+  margin: 1px 0 1px;
+}
+
+/*Styling for Header 3*/
+h3 {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 10px;
+  margin: 40px 0 10px;
+  color: darkblue;
+}
+
+/*Styling for Header 4*/
+h4 {
+  margin: 0;
+  text-transform: uppercase;
+  color: blueviolet;
+}
+
+/*Styling for Header 5*/
+h5 {
+  color: blue;
+  letter-spacing: 1px;
+  font-size: 0.75rem;
+  padding-bottom: 20px;
+  margin: 1px 0 2px;
+  text-align: right;
+}
+
+/*Styling for expense container*/
+.inc-exp-container {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+/*Styling for expense container*/
+.inc-exp-container > div {
+  flex: 1;
+  text-align: center;
+}
+
+/*Styling for container*/
+.inc-exp-container > div:first-of-type {
+  border-right: 1px solid #dedede;
+}
+
+/*Styling for numberic figure i.e. Amount*/
+.money {
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin: 5px 0;
+}
+
+/*Styling for positive amount*/
+.money.plus {
+  color: #2ecc71;
+}
+
+/*Styling for negative amount*/
+.money.minus {
+  color: #c0392b;
+}
+
+/*Styling for Label*/
+label {
+  display: inline-block;
+  margin: 10px 0;
+  color: #00008b;
+  font-weight: bold;
+}
+
+/*Styling for input of transaction i.e. Text and Amount*/
+input[type='text'] {
+  /*border: 1px solid #dedede;*/
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 2px;
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number'] {
+  /*border: 1px solid #dedede;*/
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 2px;
+  display: block;
+
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+}
+
+/*Styling for add transaction / submitting the Form button*/
+.btn {
+  cursor: pointer;
+  background-color: #8d78f5;
+  box-shadow: var(--box-shadow);
+  /* color: #fff; */
+  border: 0;
+  display: block;
+  font-size: 16px;
+  margin: 10px 0 30px;
+  padding: 10px;
+  width: 100%;
+}
+
+/*Styling for deleting a transaction from List*/
+.btn:focus,
+.delete-btn:focus {
+  outline: 0;
+}
+
+/*Styling list table*/
+.list {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+/*Styling for listing of transaction*/
+.list li {
+  /*box-shadow: var(--box-shadow);*/
+  color: #00008b;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: 10px;
+  margin: 10px 0;
+}
+/*Styling for positive amount figure i.e. it will make a Green Boarder to particular transaction*/
+.list li.plus {
+  border-right: 5px solid #2ecc71;
+}
+
+/*Styling for negative number i.e. it will make a Red Boarder to particular transaction*/
+.list li.minus {
+  border-right: 5px solid #c0392b;
+}
+
+/*Styling for Delete Button*/
+.delete-btn {
+  cursor: pointer;
+  content: 'X';
+  /* background-color: rgba(0, 0, 0, 0); */
+  background-color: #e74d3c32;
+  border: 1;
+  /* color: #fff; */
+  font-size: 20px;
+  /*line-height: 20px;
+  padding: 2px 5px;*/
+  position: absolute;
+  top: 50%;
+  left: 1;
+  transform: translate(-150%, -50%);
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.list li:hover .delete-btn {
+  opacity: 1;
+  content: 'X';
+}
+
+button {
+  background-color: blue;
+  font-size: 18px;
+}
