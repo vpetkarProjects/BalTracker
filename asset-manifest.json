@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/BalTracker/static/css/main.e9027432.chunk.css",
+    "main.js": "/BalTracker/static/js/main.bf0e7ef0.chunk.js",
+    "main.js.map": "/BalTracker/static/js/main.bf0e7ef0.chunk.js.map",
+    "runtime-main.js": "/BalTracker/static/js/runtime-main.0ddfbb72.js",
+    "runtime-main.js.map": "/BalTracker/static/js/runtime-main.0ddfbb72.js.map",
+    "static/js/2.3375d692.chunk.js": "/BalTracker/static/js/2.3375d692.chunk.js",
+    "static/js/2.3375d692.chunk.js.map": "/BalTracker/static/js/2.3375d692.chunk.js.map",
+    "index.html": "/BalTracker/index.html",
+    "static/css/main.e9027432.chunk.css.map": "/BalTracker/static/css/main.e9027432.chunk.css.map",
+    "static/js/2.3375d692.chunk.js.LICENSE.txt": "/BalTracker/static/js/2.3375d692.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0ddfbb72.js",
+    "static/js/2.3375d692.chunk.js",
+    "static/css/main.e9027432.chunk.css",
+    "static/js/main.bf0e7ef0.chunk.js"
+  ]
+}
